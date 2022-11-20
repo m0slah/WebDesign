@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 60px 1fr 140px;
+    /* grid-template-columns:1fr 1fr; */
+    grid-template-areas:
+        "header"
+        "main"
+        /* "article" */
+        "footer";
+    gap: 10px;
+}
+
+.logo>img {
+    grid-area: logo;
+    width: 40px;
+}
+
+.page-heading {
+    margin: 20px 0px;
+}
+
+main{
+    margin: 50px 100px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    height: 50px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #FFC4C4;
+    border: 2px solid #fca4a4;
+    border-bottom: 4px solid #ffaeae;
+    outline: none;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.radio-buttons {
+    width: 15px;
+    height: 15px;
+    margin: 5px 0;
+}
+
+input:focus {
+    border: 2px solid #FFC4C4;
+    border-bottom: 4px solid #f59a9a;
+    background-color: #ffffff;
+}
+
+.multiple-select-input {
+    height: 70px;
+}
+
+fieldset {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #FFC4C4;
+    border: 2px solid #fdb5b5;
+    border-bottom: 4px solid #ffa6a6;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+legend {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #FFC4C4;
+    border: 2px solid #f79191;
+    border-bottom: 4px solid #f59494;
+    padding: 5px 15px;
+}
+
+textarea {
+    padding: 10px;
+    height: 120px;
+}
+
+.control-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.signup-button {
+    background-color: rgb(238, 136, 187);
+    border: 2px solid rgb(219, 22, 160);
+    color: white;
+}
+
+.signup-button:hover {
+    background-color: rgb(236, 28, 156);
+}
+
+.reset-button {
+    background-color: rgb(255, 0, 157);
+    border: 2px solid rgb(238, 81, 147);
+    color: white;
+}
+
+.reset-button:hover {
+    background-color: rgb(105, 14, 48);
+}
