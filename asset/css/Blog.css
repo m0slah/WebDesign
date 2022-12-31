@@ -31,7 +31,7 @@
 .recent {
     display: flex;
     justify-content: left;
-    color: #4C0033;
+    color: #000;
 }
 
 
@@ -49,7 +49,7 @@
     height: 200px;
     margin: 10px 10px 0 0;
     float: left;
-    box-shadow: 2px 2px 2px 2px #FFC4C4;
+    box-shadow: 2px 2px 2px 2px #c9cfdf;
 }
 
  
@@ -58,7 +58,7 @@
     height: 200px;
     margin: 10px 10px 0 0;
     float: right;
-    box-shadow: -2px 2px 2px 2px #FFC4C4;
+    box-shadow: -2px 2px 2px 2px #c9cfdf;
 }
 
  
