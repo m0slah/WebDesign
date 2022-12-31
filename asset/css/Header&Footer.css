@@ -75,9 +75,8 @@ ul li {
   display: none;
   z-index: 999;
 }
-.drop-down-li:hover ::after{
-content: "";
-}
+
+
 .drop-down :hover {
   background-color: #c9cfdf;
 }
@@ -87,14 +86,14 @@ ul li:hover .drop-down {
 }
 
 .footer {
-  background-color: #e9edf8 ;
+  background-color: #e9edf8;
   border-top: 6px solid #c9cfdf;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer> table {
+.footer>table {
   width: 100%;
   margin: 10px 20px;
 }
