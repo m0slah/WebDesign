@@ -1,195 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web-design</title>
-    <link rel="stylesheet" href="/asset/css/signup.css">
-    <link rel="stylesheet" href="./asset/css/Header&Footer.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web-design</title>
+  <link rel="stylesheet" href="/asset/css/signup.css">
+  <link rel="stylesheet" href="./asset/css/Header&Footer.css">
 
 </head>
+
 <body>
-    <div class="container">
-      <header class="item header">
-        <div class="title">
-            <img class="header-logo" src="./Images/logo.png" alt="logo">
-            <h1>Web Design</h1>
-        </div>
-        <nav class="header_nav">
-            <ul>
-                <li class="main-li" id="Home.html"><a href="Home.html">Home</a></li>
-                <li class="main-li" id="Blog.html"><a href="Blog.html">Blog</a></li>
-                <li class="main-li" id="Schedule.html"><a href="Schedule.html">Schedule</a></li>
-                <li class="main-li">
-                    <a>layout designed</a>
-                    <ul class="drop-down">
-                        <li><a href="./Layout/Flex.html">Float</a></li>
-                        <li><a href="./Layout/Flex.html">Flexbox</a></li>
-                        <li><a href="./Layout/grid.html">Grid</a></li>
-                    </ul>
-                </li>
-                <li class="main-li" id="Signup.html"><a href="Signup.html">Signup</a></li>
-                <li class="main-li" id="Signin.html"><a href="Signin.html">Signin</a></li>
+  <div class="container">
+    <header class="item header">
+      <div class="title">
+        <img class="header-logo" src="./Images/logo.png" alt="logo">
+        <h1>Web Design</h1>
+      </div>
+      <nav class="header_nav">
+        <ul>
+          <li class="main-li" id="Home.html"><a href="Home.html">Home</a></li>
+          <li class="main-li" id="Blog.html"><a href="Blog.html">Blog</a></li>
+          <li class="main-li" id="Schedule.html"><a href="Schedule.html">Schedule</a></li>
+          <li>
+            <a>layout designed</a>
+            <ul class="drop-down">
+              <a href="./Layout/Flex.html">Float</a>
+              <a href="./Layout/Flex.html">Flexbox</a>
+              <a href="./Layout/grid.html">Grid</a>
             </ul>
-        </nav>
+          </li>
+          <li class="main-li" id="Signup.html"><a href="Signup.html">Signup</a></li>
+          <li class="main-li" id="Signin.html"><a href="Signin.html">Signin</a></li>
+        </ul>
+      </nav>
     </header>
 
-        <main>
-            <h1 class="page-heading">The Sign Up Form</h1>
-            <form>
-              <label for="">Username</label>
-              <input type="text" placeholder="Username" />
-              <label for="">Full Name</label>
-              <input type="text" placeholder="Full Name" />
-              <label for="">Email</label>
-              <input type="email" placeholder="example@gmail.com" />
-              <label for="">Phone</label>
-              <input type="tel" placeholder="07504445678" />
-              <label for="">Password</label>
-              <input type="password" placeholder="**********" />
-              <label for="">Date of Birth</label>
-              <input type="date" />
-              <label>Profile Color</label>
-              <input type="color" />
-              <fieldset>
-                <legend>Martial Status</legend>
-                <input
-                  class="radio-buttons"
-                  type="radio"
-                  id="single"
-                  name="marsial status"
-                  value="single"
-                />
-                <label for="married">Married</label><br />
-                <input
-                  class="radio-buttons"
-                  type="radio"
-                  id="private"
-                  name="marsial status"
-                  value="private"
-                />
-                <label for="single">Single</label><br />
-                <input
-                  class="radio-buttons"
-                  type="radio"
-                  id="married"
-                  name="marsial status"
-                  value="married"
-                />
-                <label for="private">It's Private</label>
-              </fieldset>
-              <label for="">No. Children</label>
-              <select name="age" id="age">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="+4">more...</option>
-              </select>
-              <label for="">Choose Your Degree</label>
-              <select
-                class="multiple-select-input"
-                multiple
-                name="degree"
-                id="degree"
-              >
-                <option value="High School">High School</option>
-                <option value="Bchelor">Bchelor</option>
-                <option value="Master">Master</option>
-                <option value="Doctor">Doctor</option>
-                <option value="Proffessor">Proffessor</option>
-              </select>
-              <label for="">About Yourself</label>
-              <textarea placeholder="More about Yourself..." name="bio"></textarea>
-              <label for="">Upload Your CV</label>
-              <input class="file-input" type="file" placeholder="CV" />
-              <fieldset>
-                <legend>Gender</legend>
-                <input
-                  class="radio-buttons"
-                  type="radio"
-                  id="male"
-                  name="gender"
-                  value="male"
-                />
-                <label for="male">Male</label><br />
-                <input
-                  class="radio-buttons"
-                  type="radio"
-                  id="female"
-                  name="gender"
-                  value="female"
-                />
-                <label for="female">Female</label><br />
-              </fieldset>
-              <fieldset>
-                <legend>Agreement</legend>
-                <input
-                  class="radio-buttons"
-                  type="checkbox"
-                  name="agreement"
-                  value="male"
-                />
-                <label for="agreement">I Have Read All the Terms.</label><br />
-                <input
-                  class="radio-buttons"
-                  type="checkbox"
-                  name="agreement"
-                  value="female"
-                />
-                <label for="agreement">Yes i agree.</label><br />
-              </fieldset>
-            </form>
-            <div class="control-buttons">
-              <button class="signup-button">Sign Up</button>
-              <button class="reset-button">Reset</button>
-            </div>
-          </main>
+    <main>
+      <h1 class="page-heading">The Sign Up Form</h1>
+      <form>
+        <label for="">Username</label>
+        <input type="text" placeholder="Username" />
+        <label for="">Full Name</label>
+        <input type="text" placeholder="Full Name" />
+        <label for="">Email</label>
+        <input type="email" placeholder="example@gmail.com" />
+        <label for="">Phone</label>
+        <input type="tel" placeholder="07504445678" />
+        <label for="">Password</label>
+        <input type="password" placeholder="**********" />
+        <label for="">Date of Birth</label>
+        <input type="date" />
+        <label>Profile Color</label>
+        <input type="color" />
+        <fieldset>
+          <legend>Martial Status</legend>
+          <input class="radio-buttons" type="radio" id="single" name="marsial status" value="single" />
+          <label for="married">Married</label><br />
+          <input class="radio-buttons" type="radio" id="private" name="marsial status" value="private" />
+          <label for="single">Single</label><br />
+          <input class="radio-buttons" type="radio" id="married" name="marsial status" value="married" />
+          <label for="private">It's Private</label>
+        </fieldset>
+        <label for="">No. Children</label>
+        <select name="age" id="age">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="+4">more...</option>
+        </select>
+        <label for="">Choose Your Degree</label>
+        <select class="multiple-select-input" multiple name="degree" id="degree">
+          <option value="High School">High School</option>
+          <option value="Bchelor">Bchelor</option>
+          <option value="Master">Master</option>
+          <option value="Doctor">Doctor</option>
+          <option value="Proffessor">Proffessor</option>
+        </select>
+        <label for="">About Yourself</label>
+        <textarea placeholder="More about Yourself..." name="bio"></textarea>
+        <label for="">Upload Your CV</label>
+        <input class="file-input" type="file" placeholder="CV" />
+        <fieldset>
+          <legend>Gender</legend>
+          <input class="radio-buttons" type="radio" id="male" name="gender" value="male" />
+          <label for="male">Male</label><br />
+          <input class="radio-buttons" type="radio" id="female" name="gender" value="female" />
+          <label for="female">Female</label><br />
+        </fieldset>
+        <fieldset>
+          <legend>Agreement</legend>
+          <input class="radio-buttons" type="checkbox" name="agreement" value="male" />
+          <label for="agreement">I Have Read All the Terms.</label><br />
+          <input class="radio-buttons" type="checkbox" name="agreement" value="female" />
+          <label for="agreement">Yes i agree.</label><br />
+        </fieldset>
+      </form>
+      <div class="control-buttons">
+        <button class="signup-button">Sign Up</button>
+        <button class="reset-button">Reset</button>
+      </div>
+    </main>
 
-        <footer class="item footer">
-            <table>
-                <tr>
-                    <ul>
-                        <th>
-                            <p>Sitemap</p>
-                        </th>
-                        <th>
-                            <p>Terms and Quick Links</p>
-                        </th>
-                        <th>
-                            <p>Address</p>
-                        </th>
-                    </ul>
-                </tr>
+    <footer class="item footer">
+      <table>
+        <tr>
+          <ul>
+            <th>
+              <p>Sitemap</p>
+            </th>
+            <th>
+              <p>Terms and Quick Links</p>
+            </th>
+            <th>
+              <p>Address</p>
+            </th>
+          </ul>
+        </tr>
 
-                <tr>
-                    <td>Home</td>
-                    <td>Term of Usage</td>
-                    <td>Erbil Iraq</td>
-                </tr>
+        <tr>
+          <td>Home</td>
+          <td>Term of Usage</td>
+          <td>Erbil Iraq</td>
+        </tr>
 
-                <tr>
-                    <td>About</td>
-                    <td>Link2</td>
-                    <td>Web-design@gmail.com</td>
-                </tr>
+        <tr>
+          <td>About</td>
+          <td>Link2</td>
+          <td>Web-design@gmail.com</td>
+        </tr>
 
-                <tr>
-                    <td>Contact</td>
-                    <td>Link3</td>
-                    <td>07500000000</td>
-                </tr>
+        <tr>
+          <td>Contact</td>
+          <td>Link3</td>
+          <td>07500000000</td>
+        </tr>
 
-                <tr>
-                    <td>Login</td>
-                    <td>Link4</td>
-                    <td>Copy right © 2022 WebDesign, all right reseved.</td>
-                </tr>
+        <tr>
+          <td>Login</td>
+          <td>Link4</td>
+          <td>Copy right © 2022 WebDesign, all right reseved.</td>
+        </tr>
 
-            </table>
-        </footer>
+      </table>
+    </footer>
 
-    </div>
+  </div>
 </body>
+
 </html>
