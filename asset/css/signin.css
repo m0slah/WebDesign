@@ -5,19 +5,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* .item {
-    border: 2px solid #000;
-} */
-
 .container {
     height: 100vh;
     display: grid;
     grid-template-rows: 60px 1fr 140px;
-    /* grid-template-columns:1fr 1fr; */
     grid-template-areas:
         "header"
         "main"
-        /* "article" */
         "footer";
     gap: 10px;
 }
@@ -40,9 +34,9 @@ input {
     width: 100%;
     height: 50px;
     border-radius: 0 0 10px 0;
-    background-color: #FFF5E4;
-    border: 2px solid #FFC4C4;
-    border-bottom: 4px solid #F675A8;
+    background-color: #e9edf8;
+    border: 2px solid #c9cfdf ;
+    border-bottom: 4px solid #657a97;
     outline: none;
     padding: 0 10px;
     font-size: 14px;
@@ -63,8 +57,8 @@ button {
 }
 
 .signup-button {
-    background-color:  #FFF5E4;
-    border: 2px solid #FFC4C4;
+    background-color:  #e9edf8;
+    border: 2px solid #c9cfdf;
     color: white;
     color: black;
     border-radius: 5px;
@@ -73,16 +67,16 @@ button {
 
 .signup-button:hover {
     /* color: black; */
-    background-color:#FFC4C4;
+    background-color:#657a97;
 }
 
 .control-buttons__link{
-    color: #BAD1C2;
+    color: #000;
     transition: all 0.5s;
 }
 
 .control-buttons__link:hover{
-    color: #C70A80;
+    color: #657a97;
 }
 
  

@@ -15,8 +15,8 @@ main {
 
 .sidebar-section {
   width: 29%;
-  background-color: #ea97ad;
-  border-top: 10px solid #045762;
+  background-color: #e9edf8;
+  border-top: 10px solid #c9cfdf;
   margin-top: 20px;
   padding: 15px 10px;
 }
@@ -41,7 +41,7 @@ main {
 .author {
   margin: 7px 0px;
   font-size: 14px;
-  color: rgb(139, 139, 139);
+  color: #657a97;
 }
 .article-content p {
   margin-top: 10px;
@@ -51,10 +51,11 @@ main {
 }
 .sidebar-section li {
   margin: 15px 0px;
+  display: block;
 }
 .sidebar-section a {
   font-weight: 700;
-  color: #355070 !important;
+  color: #657a97 !important;
   transition: all 0.3s ease;
 }
 .sidebar-section a:hover {

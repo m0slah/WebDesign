@@ -27,25 +27,25 @@
     width: 40px;
 }
  
-main {
+.main {
     min-height: 100vh;
   }
   .page-heading {
     margin: 30px 0px;
   }
-  table {
+  .table {
     width: 100%;
     border: 2px solid #355070;
     border-collapse: collapse;
     text-align: center;
   }
-  thead td {
+  .thead .td {
     border: 2px solid #045762;
     background-color: white;
     padding: 10px;
     border-bottom: 4px #045762 solid;
   }
-  table tbody td {
+  .table tbody td {
     border: 2px solid #045762;
     padding: 10px;
   }

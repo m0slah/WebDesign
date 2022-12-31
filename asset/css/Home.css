@@ -131,7 +131,7 @@ main {
 .recent {
     display: flex;
     justify-content: center;
-    color: #000 ;
+    color: #000;
 }
 
 
@@ -142,7 +142,6 @@ main {
 
 .topic1 {
     margin-top: 10px;
-    /* color: #FFC4C4; */
 }
 
 .post-img1 {
@@ -159,5 +158,5 @@ main {
     height: 200px;
     margin: 10px 10px 0 0;
     float: right;
-    box-shadow: -2px 2px 2px 2px #c9cfdf    ;
+    box-shadow: -2px 2px 2px 2px #c9cfdf;
 }

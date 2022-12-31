@@ -40,6 +40,7 @@ nav>ul li a {
   color: #000;
   transition: all 0.5s;
   padding: 5px 10px;
+  transition: all 0.5s;
 }
 
 /* background-color: #657a97;
@@ -47,7 +48,7 @@ nav>ul li a {
  background-color: #e9edf8;
   */
 
-.main-li:hover ::after {
+/* nav>ul>.main-li:hover ::after {
   content: "";
   background-color: #657a97;
   height: 5px;
@@ -55,6 +56,16 @@ nav>ul li a {
   position: absolute;
   bottom: -13px;
   left: 8px;
+} */
+
+.main-li {
+  transition: all 0.5s;
+  border-radius: 10px;
+  padding: 1px;
+}
+
+.main-li:hover {
+  background-color: #c9cfdf;
 }
 
 
